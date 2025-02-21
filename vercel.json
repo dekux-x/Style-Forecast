@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
       {
-        "src": "main.py",
+        "src": "back_fastapi/main.py",
         "use": "@vercel/python"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "main.py"
+        "dest": "back_fastapi/main.py"
       }
     ]
   }
