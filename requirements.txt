@@ -1,2 +1,11 @@
 fastapi
 uvicorn
+asyncpg                 # For PostgreSQL (if you're using it)
+sqlalchemy[asyncio]     # Async support for SQLAlchemy
+alembic                 # Database migrations
+boto3                   # AWS S3 integration
+python-multipart        # Handling file uploads
+passlib[bcrypt]         # Password hashing
+pyjwt                   # JWT authentication
+email-validator         # Email validation
+httpx         
